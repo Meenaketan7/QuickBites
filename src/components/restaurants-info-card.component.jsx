@@ -1,6 +1,6 @@
 import {Text as tx, Image, View} from 'react-native';
 import React from 'react';
-import {Avatar, Button, Card, Text} from 'react-native-paper';
+import {Text} from 'react-native-paper';
 import {styled} from 'styled-components';
 import {SvgXml} from 'react-native-svg';
 import star from '../assets/star';
