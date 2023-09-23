@@ -15,10 +15,10 @@ const TAB_ICONS = {
   Settings: 'settings',
   Map: 'map',
 };
-const createScreenOptions = ({route}) => {
+const createScreenOptions = ({route}: any) => {
   const iconName = TAB_ICONS[route.name];
   return {
-    tabBarIcon: ({size, color}) => (
+    tabBarIcon: ({size, color}: any) => (
       <Ionicons name={iconName} size={size} color={color} />
     ),
   };
